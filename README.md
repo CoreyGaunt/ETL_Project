@@ -14,6 +14,24 @@ the data we transformed in python, and run queries on the data.
 
 ### Process
 
-##### Viewing The Data
+##### Diagraming My Tables To Understand My Data
+![Netflix / SAG ERD](https://github.com/CoreyGaunt/ETL_Project/blob/master/ERD_Diagram.JPG)
+The foreign keys shown in this diagram are the composite keys for those junction tables, not actually foreign keys.
+
+##### Cleaning The Individual Data Files
+
+##### Merging The Two DataFrames
+
+##### Create All Necessary SQL Tables in pgadmin4
+
+##### Create DataFrames With Data That Matches The SQL Tables
+
+##### Push DataFrame Information To SQL DataBase
+
+##### Verify That Information Was Sent Successfully
+
+##### Run Queries On SQL Table Data
+
+##### Query Results
 
 [click](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_1.csv)
