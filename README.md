@@ -1,9 +1,18 @@
-# ETL_Project
+# SAG Award Nominations for Content Found on Netflix in 2019
+- netflix source data note: the movies/tv shows contained in this data set were movies/tv shows that netflix had in their streaming catalog in 2019, the release dates for the actual content varies.
 
-energy consumption data = https://www.kaggle.com/robikscube/hourly-energy-consumption#
-
-podcast data = https://www.kaggle.com/thoughtvector/podcastreviews?
+### Source Data
 
 netflix data 2019 = https://www.kaggle.com/shivamb/netflix-shows
 
 sag awards data = https://www.kaggle.com/unanimad/screen-actors-guild-awards
+
+### Purpose
+
+The purpose of this project is to import the above CSVs, transform the data, shape for database, create a sql database with tables, populate the sql tables with
+the data we transformed in python, and run queries on the data.
+
+### Process
+
+##### Viewing The Data
+
