@@ -16,3 +16,4 @@ the data we transformed in python, and run queries on the data.
 
 ##### Viewing The Data
 
+[click](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_1.csv)
