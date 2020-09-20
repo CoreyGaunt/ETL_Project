@@ -1,3 +1,5 @@
+-- creating my tables & junction tables
+
 create table actors (
 id int not null,
 full_name varchar(50)not null,
@@ -6,6 +8,7 @@ primary key (id));
 create table titles (
 show_id int not null,
 title varchar(50)not null,
+type varchar(50)not null,
 release_year int not null,
 description text not null,
 primary key (show_id));
