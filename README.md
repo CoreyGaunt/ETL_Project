@@ -42,6 +42,8 @@ In pgadmin 4, I go about setting up my tables based off of the ERD diagram that 
 
 I had to be careful here to create my junction tables in the right order so that I could leverage the proper primary keys for their composite keys.
 
+![Setting Up My Tables](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Setting_Up_Tables.JPG)
+
 ##### Create DataFrames With Data That Matches The SQL Tables
 
 After putting my SQL tables into my database, I was ready to go back into my csv and create new dataframes that would match the content I wanted to be populated into my database. This meant I had to make eight dataframes total (actors, titles, act_ttl**, directors, dir_ttl**, awards, act_award**, dir_award**)
@@ -52,10 +54,38 @@ The exact process I took to create these tables is laid out in my code comments,
 
 ##### Push DataFrame Information To SQL DataBase
 
+Use SQLalchemy's create_engine and connection string functionality to connect to my SQL database, and then used pandas pd.to_sql() to push my data into the database.
+
 ##### Verify That Information Was Sent Successfully
+
+I then wrote basic queries to verify my data was present in my tables
+
+![Verify Data Import Queries](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Verify_Query.JPG)
 
 ##### Run Queries On SQL Table Data
 
+Below are snippets of the queries I ran, and I posted links to the results of those queries in the next section.
+
+![Queries To My Data Part1](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Queries_1.JPG)
+
+![Queries To My Data Part2](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Queries_2.JPG)
+
+![Queries To My Data Part3](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Queries_3.JPG)
+
 ##### Query Results
 
-[click](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_1.csv)
+Query 1 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_1.csv)
+
+Query 2 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_2.csv)
+
+Query 3 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_3.csv)
+
+Query 4 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_4.csv)
+
+Query 5 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_5.csv)
+
+Query 6 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_6.csv)
+
+Query 7 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_7.csv)
+
+Query 8 - [results](https://github.com/CoreyGaunt/ETL_Project/blob/master/Results_From_Queries/query_8.csv)
