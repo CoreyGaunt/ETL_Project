@@ -1,3 +1,4 @@
+
 -- queries to verify data loaded correctly
 
 select * from actors
@@ -132,7 +133,4 @@ from awards
 where awards.won = false
 group by awards.category, awards.won
 
--- query 9
--- this query shows how many nominations a given title - which has
--- appeared on netflix - received at the SAG awards
 
