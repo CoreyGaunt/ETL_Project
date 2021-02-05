@@ -42,8 +42,6 @@ In pgadmin 4, I go about setting up my tables based off of the ERD diagram that 
 
 I had to be careful here to create my junction tables in the right order so that I could leverage the proper primary keys for their composite keys.
 
-![Setting Up My Tables](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Setting_Up_Tables.JPG)
-
 ##### Create DataFrames With Data That Matches The SQL Tables
 
 After putting my SQL tables into my database, I was ready to go back into my csv and create new dataframes that would match the content I wanted to be populated into my database. This meant I had to make eight dataframes total (actors, titles, act_ttl**, directors, dir_ttl**, awards, act_award**, dir_award**)
@@ -60,17 +58,9 @@ Use SQLalchemy's create_engine and connection string functionality to connect to
 
 I then wrote basic queries to verify my data was present in my tables
 
-![Verify Data Import Queries](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Verify_Query.JPG)
-
 ##### Run Queries On SQL Table Data
 
 Below are snippets of the queries I ran, and I posted links to the results of those queries in the next section.
-
-![Queries To My Data Part1](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Queries_1.JPG)
-
-![Queries To My Data Part2](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Queries_2.JPG)
-
-![Queries To My Data Part3](https://github.com/CoreyGaunt/ETL_Project/blob/master/Images/Queries_3.JPG)
 
 ##### Query Results
 
